@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.sectionCenter {
+  border: 1px solid;
+  padding: 20px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.idPosition {
+  width: 25px;
+  height: 25px;
+  align-self: flex-end;
+}
+
+@media (max-width: 752px) {
+  .sectionCenter {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    width: unset;
+  }
+  .idPosition {
+    align-self: flex-end;
+  }
+}
