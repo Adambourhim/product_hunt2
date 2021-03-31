@@ -38,12 +38,10 @@
 }
 
 .sectionCenter {
-  border: 1px solid;
-  padding: 20px;
-  width: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 100px auto;
 }
 .idPosition {
   width: 25px;
