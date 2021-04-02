@@ -4,10 +4,10 @@ function Main() {
     <section className="sectionCenter">
       <div>
         <div>
-          <h5>{name}</h5>
+          <h3>name</h3>
           <p>This is a wider card with supporting text below as a natural .</p>
           <p>
-            <small>Last updated {time}mins ago</small>
+            <small>Last updated time mins ago</small>
           </p>
         </div>
       </div>
