@@ -6,6 +6,7 @@ function Main() {
   useEffect(() => {
     axios.get(url).then((response) => {
       setPost(response.data);
+      console.log(response.data);
     });
   }, [url]);
   if (post) {
@@ -13,7 +14,7 @@ function Main() {
       <section className="sectionCenter">
         <div>
           <div>
-            <h3>{post.name}</h3>
+            <h3>{post.body}</h3>
             <p>
               This is a wider card with supporting text below as a natural .
             </p>
