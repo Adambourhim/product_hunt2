@@ -7,7 +7,7 @@ function Main() {
   const callApi = () => {
     axios.get(url).then((res) => {
       console.log(res);
-      setPost(res.headers.pragma);
+      setPost(res.headers);
     });
   };
   return (
